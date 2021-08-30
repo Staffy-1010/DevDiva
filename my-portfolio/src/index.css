@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Grenze+Gotisch:wght@100&family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans&family=Fredericka+the+Great&family=Handlee&family=Kaushan+Script&family=Rock+Salt&family=Satisfy&display=swap');
+body{
+  text-shadow: .8px .8px black;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./pics/bgomg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:black; 
+  font-weight: 700;
+}
+.pagi{
+  color: black;
+}
+.pagi:hover{
+  background-color: black;
+  color: black;
+}
+.skills{
+   font-family: grenze gotisch;
+}
+.Navv{
+   font-family: handlee;
+   text-shadow: 0px 5px white;
+}
+.devbook{
+  font-family: frijole;
+}
+.dev{
+  font-family: henny penny;
+}
+.tech{
+  font-family: Fredericka the great;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 0px 5px white;
+}
+.project{
+  color:#ffffff;
+  font-family:'open sans light','segoe ui light', sans-serif; 
+  text-decoration:none;
+  font-size:20px;
+  box-shadow: 0px 0px 15px wheat;
+  border:4px black solid;
+  background-image:url('./pics/bgfinal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hard-light;
+  backdrop-filter: blur(16px);
+  border-radius: 50px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.project:hover{
+    background-color:paleturquoise;
+    color:black;
+    border:0px;
+    color: black;;
+    -moz-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.home{
+  box-shadow: 0px 0px 15px white;
+  background-image: url(./pics/bgomg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(6px);
+  color:#ffffff;
+  font-family:'open sans light','segoe ui light', sans-serif; 
+  text-decoration:none;
+  font-size:20px;
+  border:4px black solid;
+  border-radius: 15px;
+  
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.home:hover{
+  opacity:10;
+  -moz-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.btnn{
+  box-shadow: 5px 5px 5px gray ;
+}
+.contact{
+    animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family: handlee;
+    color: white;
+    text-shadow: 6px 0px 4px black;
+    font-size: 40px;
+}
+.con{
+  text-shadow: 6px 0px 4px black;
+  font-size: 100px;
+}
+.con:hover{
+  transition: all 0.7s ease;
+  text-shadow: 6px 0px 4px black;
+  color:rgb(6, 248, 188);
+  font-size: 140px;
+}
+.centerFlex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.intro{
+  background-image: url(./pics/intro2.jpeg);
+  /* background-size: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro:hover{
+  background-image: url(./pics/intro1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
