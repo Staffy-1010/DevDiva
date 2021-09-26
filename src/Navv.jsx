@@ -4,7 +4,7 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 function Navv() {
     return (
         <div>
-        <Navbar bg="dark" className="bg-transparent Navv" expand="lg">
+        <Navbar bg="dark" className="bg-transparent Navv">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto h2 text-center ">
